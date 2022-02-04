@@ -1,0 +1,161 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-SemiBold.woff2") format("woff2"), url("../fonts/Rubik-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Black.woff2") format("woff2"), url("../fonts/Rubik-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+.about {
+	font-family: "Merriweather", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: green;
+	font-size: 20px;
+}
+.about p span {
+	color: red;
+	text-transform: uppercase;
+}
+.content {
+	margin: 20px 100px;
+}
+h1 {
+	font-size: 30px;
+	margin: 20px 0;
+	color: lightseagreen;
+	font-weight: 900;
+}
+div h2 {
+	width: 400px;
+	margin: 50px auto;
+	color: lightcoral;
+	font-size: 25px;
+	font-weight: 700;
+}
+.content h2 {
+	margin: 20px 0;
+	color: indigo;
+	font-size: 22px;
+	font-weight: 900;
+}
+.content li a {
+	font-weight: 900;
+	color: saddlebrown;
+	font-size: 18px;
+	text-shadow: 5px 7px 9px green;
+	word-spacing: 3px;
+	line-height: 1.7;
+}
+.plot {
+	margin: 20px 40px;
+	/* max-height: 200px;
+	overflow: scroll; */
+}
+.plot p {
+	font-family: "Poppins", sans-serif;
+	padding: 10px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+.plot .plot-start p {
+	color: maroon;
+}
+.plot .plot-middle {
+	margin: 20px 50px;
+	color: lime;
+}
+.plot .plot-end {
+	margin: 20px 150px;
+	color: fuchsia;
+}
+.actors span {
+	font-family: "Merriweather", sans-serif;
+	font-weight: 900;
+	text-decoration: underline;
+	color: brown;
+	display: block;
+	margin: 20px;
+	font-size: 22px;
+	line-height: 1.8;
+}
+.dubbing {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: green;
+	text-transform: capitalize;
+	line-height: 1.5;
+}
+.dubbing div {
+	max-height: 192px;
+	overflow: scroll;
+}
+.dubbing h2 {
+	font-family: "Rubik", sans-serif;
+}
+.team {
+	color: indigo;
+	text-shadow: 10px 10px 10px red;
+}
+.dubbers {
+	color: salmon;
+	text-decoration: overline;
+}
+.awards p {
+	font-family: "Merriweather", sans-serif;
+	font-size: 21px;
+	color: springgreen;
+	margin-left: 30px;
+}
+.interesting {
+	color: teal;
+	font-size: 20px;
+	width: 800px;
+	margin: 20px auto;
+	padding: 5px;
+}
+.interesting p {
+	text-indent: 10px;
+}
+.another p a {
+	width: 400px;
+	margin: 20%;
+	color: tomato;
+	font-size: 25px;
+	font-family: "Merriweather", sans-serif;
+}
+.notes ul {
+	color: royalblue;
+	line-height: 1.4;
+	font-family: "Merriweather", sans-serif;
+	text-decoration: line-through;
+}
+footer p {
+	width: 150px;
+	margin: 20px 0 0 700px;
+}
